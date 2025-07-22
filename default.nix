@@ -12,8 +12,8 @@ stdenv.mkDerivation rec {
     mkdir -p $out/share/themes/Bluecurve
     cp -r themes/* $out/share/themes/
 
-    mkdir -p $out/share/icons/Bluecurve
-    cp -r icons/* $out/share/icons/Bluecurve
+    mkdir -p $out/share/icons/
+    cp -r icons/* $out/share/icons/
   '';
 
   meta = with lib; {
