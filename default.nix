@@ -9,7 +9,7 @@ stdenv.mkDerivation rec {
   src = ./bluecurve;
 
   installPhase = ''
-    mkdir -p $out/share/themes/Bluecurve
+    mkdir -p $out/share/themes/
     cp -r themes/* $out/share/themes/
 
     mkdir -p $out/share/icons/
