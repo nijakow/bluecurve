@@ -4,9 +4,9 @@ stdenv.mkDerivation rec {
   pname = "bluecurve-theme";
   version = "1.0";
 
-  src = ./bluecurve;
-
   dontBuild = true;
+
+  src = ./bluecurve;
 
   installPhase = ''
     mkdir -p $out/share/themes/Bluecurve
