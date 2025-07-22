@@ -14,6 +14,9 @@ stdenv.mkDerivation rec {
 
     mkdir -p $out/share/icons/
     cp -r icons/* $out/share/icons/
+
+    mkdir -p $out/share/fonts/truetype/
+    cp -r fonts/*.ttf $out/share/fonts/truetype/
   '';
 
   meta = with lib; {
