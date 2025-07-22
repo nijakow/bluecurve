@@ -18,7 +18,7 @@ stdenv.mkDerivation rec {
 
   meta = with lib; {
     description = "Bluecurve GTK and icon theme";
-    homepage = "https://github.com/nijakow/bluecurve-theme";
+    homepage = "https://github.com/nijakow/bluecurve";
     license = licenses.gpl3;
     platforms = platforms.linux;
   };
